@@ -7,14 +7,23 @@ using namespace std;
 
 int main()
 {
-	
 
 	int a = 8;
 	int b = 1;
-	cout<<"Elotte : "<< a << " "<< b << endl;
+	cout << "Elotte : " << a << " " << b << endl;
 	a = a * b;
 	b = a / b;
 	a = a / b;
 
 	cout <<"Utana : "<< a << " " << b << endl;
 } 
+
+/**
+ * 		a		b		
+ * 
+ * 		2		5		 
+ * 
+ * 		2*5		5
+ * 		2*5		2*5/5
+ * 		2*5		5
+ */
